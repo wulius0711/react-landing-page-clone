@@ -23,12 +23,9 @@
   },
   "dependencies": {
     "@fontsource-variable/inter": "^5.0.16",
-    "@fontsource-variable/public-sans": "^5.0.17",
-    "@fontsource/open-sans": "^5.0.22",
     "@upleveled/react-scripts": "5.0.13",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "resolve-url-loader": "^5.0.0",
     "sass": "1.70.0"
   },
   "devDependencies": {
