@@ -1,0 +1,192 @@
+.homeBannerSlider {
+  background: url(https://www.growthmentor.com/wp-content/themes/growthmentor/images/home-banner-slider-bg.png)
+    no-repeat center; //68px;
+  background-size: contain;
+  padding-bottom: 0;
+  background-position: top;
+  height: 595px;
+
+  .homeBannerSliderContainer {
+    max-width: 1280px;
+    margin: 0 auto;
+
+    .colContent {
+      width: 59%;
+      padding: 80px 40px 40px;
+      float: left;
+
+      .slogan {
+        font-size: 64px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+      }
+
+      .sloganText {
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 36px;
+        letter-spacing: -0.02em;
+        max-width: 550px;
+        margin-bottom: 35px;
+      }
+
+      .btnHeroFull {
+        background: #7a5af8;
+        -webkit-box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+        padding: 12px 40px 10px 25px;
+        color: white;
+        border-radius: 24px;
+        font-weight: 600;
+
+        &::after {
+          content: '';
+          width: 8px;
+          height: 8px;
+          border: solid #fff;
+          border-width: 2px 2px 0 0;
+          top: 50%;
+          right: 24px;
+          transform: rotate(45deg) translateX(-50%);
+          background-repeat: no-repeat;
+          display: inline-block;
+          margin-left: 12px;
+        }
+      }
+
+      .btnHero {
+        margin-bottom: 64px;
+
+        .btnHeroVideo {
+          color: #6938ef;
+          background: #fff;
+          border-color: #6938ef;
+          margin-left: 10px;
+          display: inline-flex;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+          padding: 12px 40px 10px 25px;
+          border: 1px solid #6938ef;
+          border-radius: 24px;
+          font-weight: 600;
+
+          &::before {
+            content: '';
+            display: inline-block;
+            margin-right: 10px;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 8px 0 8px 12px;
+            border-color: transparent transparent transparent #6938ef;
+          }
+        }
+      }
+
+      .heroListHeadline {
+        font-size: 12px;
+        font-weight: 600;
+        font-family: Inter, sans-serif;
+        margin: 0 0 10px;
+        color: #141f2f;
+        text-transform: uppercase;
+      }
+
+      .heroListContent {
+        line-height: 2.4rem;
+
+        & ul {
+          margin: 0;
+          padding: 0;
+          list-style: none;
+
+          & li {
+            position: relative;
+            padding-left: 28px;
+          }
+
+          & li::before {
+            content: '✓';
+            background: #141f2f;
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            position: absolute;
+            left: 0;
+            top: 12px;
+            color: #fff;
+
+            font-size: 10px;
+            display: flex;
+
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+          }
+        }
+      }
+      // }
+    }
+
+    .colSlider {
+      width: 43%;
+      padding: 140px 40px 40px;
+      position: relative;
+      max-height: 914px;
+      overflow: hidden;
+      margin-right: -40px;
+      float: left;
+
+      .colSliderBox {
+        display: flex;
+        padding: 36px 24px;
+        background: #f2f4f7;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        border-radius: 10px;
+        overflow: hidden;
+        position: relative;
+        -webkit-transition: 0.3s;
+        transition: 0.3s;
+        margin-bottom: 32px;
+
+        .colSliderBoxImg {
+          width: 60px;
+          height: 60px;
+          border-radius: 50%;
+          position: relative;
+          border: 6px solid rgba(16, 24, 40, 0.1);
+          overflow: hidden;
+          -ms-flex-negative: 0;
+          flex-shrink: 0;
+          margin-right: 10px;
+          -webkit-transition: border-color 0.3s;
+          transition: border-color 0.3s;
+        }
+
+        .colSliderBoxText {
+          width: 80%;
+          line-height: 1.6rem;
+
+          .colSliderBoxSignature {
+            margin-top: 16px;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 20px;
+            letter-spacing: -0.4px;
+            text-align: left;
+            color: #475467;
+            display: block;
+          }
+        }
+      }
+    }
+  }
+
+  .banner > * {
+    position: relative;
+    z-index: 2;
+  }
+}

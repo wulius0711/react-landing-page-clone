@@ -1,0 +1,106 @@
+footer {
+  background: #101828;
+  border-top: 1px solid #344054;
+
+  .footerTop {
+    margin: 0 0 40px;
+  }
+
+  .container {
+    position: relative;
+    max-width: 1200px;
+    margin: auto;
+
+    .row {
+      display: flex;
+      //flex-wrap: wrap;
+      margin-right: -15px;
+      margin-left: -15px;
+
+      .footerLeft {
+        flex: 0 0 33.33333%;
+        max-width: 33.33333%;
+
+        .footerLogo {
+          width: 166px;
+          height: 32px;
+          background: url(https://www.growthmentor.com/wp-content/themes/growthmentor/images/footer-logo-white.svg)
+            no-repeat center center;
+          background-size: contain;
+          margin: 32px 0;
+        }
+
+        .footerLogoText {
+          font-size: 16px;
+          line-height: 1.5;
+          font-weight: 400;
+          letter-spacing: 0.4px;
+          color: white;
+        }
+      }
+
+      .footerRight {
+        flex: 0 0 66.66667%;
+        max-width: 66.66667%;
+        margin-left: 4rem;
+
+        .footerRightSection {
+          display: flex;
+          padding: 0 1rem;
+          margin: 32px 0;
+          font-size: 14px;
+          line-height: 1.5;
+          font-weight: 400;
+          letter-spacing: 0.4px;
+          color: white;
+          text-align: left;
+          flex-direction: column;
+          align-content: space-between;
+          flex-wrap: wrap;
+          width: 100%;
+
+          .footerHeadline {
+            font-weight: 600;
+          }
+
+          .footerRightList {
+            list-style: none;
+            padding-left: 0;
+            margin-top: 0.5rem;
+            line-height: 1.6rem;
+          }
+        }
+      }
+    }
+  }
+
+  .footerBottom {
+    margin: 0 0 40px;
+    height: 80px;
+
+    .footerSocketLeft {
+      text-align: left;
+      color: #98a2b3;
+      position: relative;
+      font-size: 0.75rem;
+      margin: 2rem 0;
+      width: 50%;
+      float: left;
+    }
+
+    .footerSocketRight {
+      text-align: right;
+      color: #98a2b3;
+      position: relative;
+      font-size: 0.75rem;
+      margin: 2rem 0;
+      width: 50%;
+      float: left;
+
+      & img {
+        margin: 0 8px;
+        width: 16px;
+      }
+    }
+  }
+}

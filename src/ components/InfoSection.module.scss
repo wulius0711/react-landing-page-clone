@@ -1,0 +1,105 @@
+/* === INFO SECTION === */
+
+.infoSection {
+  padding: 50px 0 0;
+  background: radial-gradient(65.74% 100% at 50% 0, #f1f4f9 0, #fff 100%);
+  width: 100%;
+  display: block;
+  text-align: center;
+  margin: 300px 0 0 0;
+
+  .infoSectionTop {
+    display: inline-block;
+    width: 60%;
+    font-size: 28px;
+    line-height: 1.6;
+    color: #141f2f;
+    margin: 0 0 40px;
+    border-bottom: 1px solid #d7dee9;
+    padding-bottom: 50px;
+
+    .infoSectionTopQuote {
+      font-size: 28px;
+      line-height: 1.4;
+      color: #141f2f;
+      margin: 0 0 20px;
+      text-align: center;
+    }
+
+    .infoSectionTopName {
+      margin-right: 15px;
+      font-size: 14px;
+      font-weight: 600;
+      color: #141f2f;
+    }
+
+    .infoSectionTopDate {
+      color: #98a2b2;
+      font-size: 13px;
+      font-weight: 500;
+    }
+  }
+
+  .infoSectionVideo {
+    padding-top: 24px;
+
+    .infoSectionVideoContainer {
+      max-width: 1000px;
+      margin: auto;
+
+      .infoSectionVideoTitle {
+        text-align: center;
+        font-size: 36px;
+        line-height: 1.2;
+        font-weight: 600;
+        margin: 0 0 50px;
+
+        .infoSectionVideoTitleColor {
+          color: #5138ee;
+        }
+      }
+
+      .infoSectionVideoContent {
+        & video {
+          max-width: 100%;
+          border-radius: 20px;
+          border: 20px solid black;
+          pointer-events: none;
+        }
+      }
+    }
+  }
+
+  .infoSectionPartners {
+    text-align: center;
+    padding: 50px 0 0;
+    margin: 0 0 80px;
+    display: flex;
+    justify-content: center;
+
+    .containerPartners {
+      max-width: 1200px;
+
+      .infoSectionPartnersHeadline {
+        font-size: 24px;
+        margin: 0 0 16px;
+        font-weight: 500;
+        text-align: center;
+      }
+
+      .infoSectionPartnersLogosContainer {
+        display: flex;
+        margin-top: 24px;
+        align-items: center;
+        justify-content: space-around;
+
+        .infoSectionPartnersLogos {
+          align-items: center;
+          flex-wrap: nowrap;
+          padding-left: 40px;
+          padding-right: 40px;
+        }
+      }
+    }
+  }
+}

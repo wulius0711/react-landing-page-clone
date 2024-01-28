@@ -23,6 +23,9 @@ dependencies:
   react-dom:
     specifier: ^18.2.0
     version: 18.2.0(react@18.2.0)
+  resolve-url-loader:
+    specifier: ^5.0.0
+    version: 5.0.0
   sass:
     specifier: 1.70.0
     version: 1.70.0
@@ -8813,6 +8816,17 @@ packages:
       convert-source-map: 1.9.0
       loader-utils: 2.0.4
       postcss: 7.0.39
+      source-map: 0.6.1
+    dev: false
+
+  /resolve-url-loader@5.0.0:
+    resolution: {integrity: sha512-uZtduh8/8srhBoMx//5bwqjQ+rfYOUq8zC9NrMUGtjBiGTtFJM42s58/36+hTqeqINcnYe08Nj3LkK9lW4N8Xg==}
+    engines: {node: '>=12'}
+    dependencies:
+      adjust-sourcemap-loader: 4.0.0
+      convert-source-map: 1.9.0
+      loader-utils: 2.0.4
+      postcss: 8.4.33
       source-map: 0.6.1
     dev: false
 
