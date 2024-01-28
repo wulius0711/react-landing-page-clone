@@ -1,6 +1,5 @@
 import React from 'react';
 import stylesSection from '../ components/InfoSection.module.scss';
-import styles from '../App.module.scss';
 
 function InfoSection() {
   return (
@@ -31,8 +30,6 @@ function InfoSection() {
           <div className={stylesSection.infoSectionVideoContent}>
             <video
               src="https://www.growthmentor.com/wp-content/uploads/2022/06/video-call-draft-6.mp4"
-              // eslint-disable-next-line react/no-unknown-property
-              playsinline
               autoPlay
               muted
               controls="false"
